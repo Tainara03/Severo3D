@@ -1,0 +1,26 @@
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container-fluid {
+    background-color: #000D26;
+    height: 3.5rem;
+}
+
+.navbar .nav-link {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.active {
+    font-weight: 600;
+}
+
+img {
+    height: 3.5rem;
+}
+
+li {
+    padding-left: 4.5rem;
+}

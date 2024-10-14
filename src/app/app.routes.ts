@@ -1,9 +1,11 @@
-import { Routes } from '@angular/router';
-import { HeaderComponent } from './models/header/header.component';
-import { FooterComponent } from './models/footer/footer.component';
+import { Router, RouterModule, Routes } from '@angular/router';
+import { AboutComponent, ContactComponent, HomeComponent, ProductsComponent, ServicesComponent } from './pages';
+import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
-  { path: 'header', component: HeaderComponent },
-  { path: 'footer', component: FooterComponent }
-  //{ path: '', redirectTo: '/header', pathMatch: 'full' }
+  { path: '', component: HomeComponent },
+  { path: 'products', component: ProductsComponent },
+  { path: 'services', component: ServicesComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'about', component: AboutComponent }
 ];
